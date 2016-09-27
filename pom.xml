@@ -63,6 +63,14 @@
         </dependency>
 		<!-- //spring boot actuator -->
 		
+		<!-- spring test -->
+        <dependency>  
+		    <groupId>org.springframework.boot</groupId>  
+		    <artifactId>spring-boot-starter-test</artifactId>  
+		    <scope>test</scope>  
+		</dependency> 
+		<!-- //spring test -->
+		
 		<!-- springfox -->
 		<dependency>
 		   <groupId>io.springfox</groupId>
