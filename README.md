@@ -21,3 +21,7 @@ spring-boot示例工程，包含了spring-boot的基本功能
 		GET		/metrics/{name}	查看具体指标				true
 		POST	/shutdown		关闭应用					true
 		GET		/trace			查看基本追踪信息			true
+
+3.springfox
+访问地址：http://localhost:8080/swagger-ui.html
+可以查看接口
