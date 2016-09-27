@@ -33,3 +33,6 @@ buildNumber.properties
 #IntelliJ IDEA
 *.iml
 .idea*
+
+#setting no sample
+logback.xml

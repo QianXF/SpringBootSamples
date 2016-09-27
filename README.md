@@ -31,3 +31,8 @@ Springfox的前身是swagger-springmvc，是一个开源的API doc框架，可�
 
 4.spring-boot-starter-test
 包含常用的测试所需的依赖，如 JUnit、Hamcrest、Mockito 和 spring-test 等。
+
+5.logback
+将src/main/resources/logback.xml.sample文件复制到该目录下命名为logback.xml
+logback.xml为个人配置，不会提交
+logback.xml.sample中配置日志按天输出，输出级别INFO
