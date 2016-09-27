@@ -25,7 +25,7 @@ public class Application {
     @Bean
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
-                .groupName("api")
+                .groupName("api")// 接口分组名称
                 .genericModelSubstitutes(DeferredResult.class)
 //                  .genericModelSubstitutes(ResponseEntity.class)
                 .useDefaultResponseMessages(false)
