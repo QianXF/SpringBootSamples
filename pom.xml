@@ -28,6 +28,7 @@
     </pluginRepositories>
     
     <properties>
+        <java.version>1.8</java.version>
     	<springfox.version>2.5.0</springfox.version>
     </properties>
     
@@ -70,7 +71,31 @@
 		    <scope>test</scope>  
 		</dependency> 
 		<!-- //spring test -->
-		
+
+        <!-- spring boot mybatis -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        
+		<!--  HikariCP连接池 -->
+<!--         <dependency> -->
+<!--             <groupId>com.zaxxer</groupId> -->
+<!--             <artifactId>HikariCP</artifactId> -->
+<!--         </dependency> -->
+		<!-- druid连接池 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.0.26</version>
+        </dependency>
+        <!-- //spring boot mybatis -->
+
 		<!-- springfox -->
 		<dependency>
 		   <groupId>io.springfox</groupId>

@@ -34,5 +34,9 @@ buildNumber.properties
 *.iml
 .idea*
 
+#log
+log*
+
 #setting no sample
+application.properties
 logback.xml

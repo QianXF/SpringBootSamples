@@ -1,6 +1,12 @@
 package com.qianxuefeng.spring.service;
 
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.qianxuefeng.spring.dao.TestUserMapper;
+import com.qianxuefeng.spring.domain.TestUser;
 
 /**
  * 
@@ -11,7 +17,14 @@ import org.springframework.stereotype.Service;
 @Service
 public class HelloService {
 
+	@Autowired
+	private TestUserMapper userMapper;
+	
 	public String hello(String str){
 		return str;
+	}
+	
+	public List<TestUser> list() {
+		return userMapper.list();
 	}
 }
