@@ -1,6 +1,4 @@
 package com.qianxuefeng.spring.controller;
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -8,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.github.pagehelper.PageInfo;
 import com.qianxuefeng.spring.domain.TestUser;
 import com.qianxuefeng.spring.service.HelloService;  
   
@@ -30,8 +29,8 @@ public class HelloController {
     }  
     
     @RequestMapping(value="/users", method=RequestMethod.GET)
-    List<TestUser> users(){
-    	return helloService.list();
+    PageInfo<TestUser> users(Integer page, Integer pageSize){
+    	return helloService.list(page, pageSize);
     }
     
 }  

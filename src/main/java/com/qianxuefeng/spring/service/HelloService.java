@@ -5,6 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.qianxuefeng.spring.dao.TestUserMapper;
 import com.qianxuefeng.spring.domain.TestUser;
 
@@ -24,7 +26,11 @@ public class HelloService {
 		return str;
 	}
 	
-	public List<TestUser> list() {
-		return userMapper.list();
+	public PageInfo<TestUser> list(Integer page, Integer pageSize) {
+		if(page!= null && pageSize!= null){  
+            PageHelper.startPage(page, pageSize);  
+        }
+        List<TestUser> users = userMapper.list();  
+        return new PageInfo<TestUser>(users);  
 	}
 }
