@@ -102,6 +102,13 @@
             <version>1.0.26</version>
         </dependency>
         <!-- //spring boot mybatis -->
+        
+		<!-- spring boot freemarker -->
+        <dependency>  
+		    <groupId>org.springframework.boot</groupId>  
+		    <artifactId>spring-boot-starter-freemarker</artifactId>  
+		</dependency>  
+		<!-- //spring boot freemarker -->
 
 		<!-- springfox -->
 		<dependency>

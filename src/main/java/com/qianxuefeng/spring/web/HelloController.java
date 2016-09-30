@@ -1,6 +1,5 @@
-package com.qianxuefeng.spring.controller;
+package com.qianxuefeng.spring.web;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -11,7 +10,6 @@ import com.qianxuefeng.spring.domain.TestUser;
 import com.qianxuefeng.spring.service.HelloService;  
   
 @RestController  
-@EnableAutoConfiguration  
 @RequestMapping("/hello")  
 public class HelloController {  
       
