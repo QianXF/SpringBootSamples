@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * 
  * @author qianxuefeng
  * @date 2016年9月30日
- * @copyright: copyright @ HeleTech 2016
  */
 @Controller
 @RequestMapping("/fm")  

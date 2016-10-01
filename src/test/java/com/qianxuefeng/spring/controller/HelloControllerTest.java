@@ -17,7 +17,6 @@ import com.qianxuefeng.spring.web.HelloController;
  * 
  * @author qianxuefeng
  * @date 2016年9月27日
- * @copyright: copyright @ HeleTech 2016
  */
 @SpringBootTest
 public class HelloControllerTest {

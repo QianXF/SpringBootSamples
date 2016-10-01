@@ -14,7 +14,6 @@ import com.qianxuefeng.spring.domain.TestUser;
  * 
  * @author qianxuefeng
  * @date 2016年9月27日
- * @copyright: copyright @ HeleTech 2016
  */
 @Service
 public class HelloService {
