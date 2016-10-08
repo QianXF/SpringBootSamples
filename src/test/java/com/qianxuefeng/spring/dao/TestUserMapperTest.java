@@ -22,7 +22,7 @@ import com.qianxuefeng.spring.domain.TestUser;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
-public class TestUserDaoTest {
+public class TestUserMapperTest {
     @Autowired
     private TestUserMapper userMapper;
 
