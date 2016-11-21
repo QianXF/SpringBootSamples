@@ -1,9 +1,8 @@
 <!DOCTYPE html>  
-  
-<html lang="en">  
-  
+<html lang="zh-cn">
+ 
 <body>  
-    404
-</body>  
-  
+    404页面
+</body>
+
 </html>  

@@ -8,10 +8,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpStatus;
 
 /**
- * 
+ * 错误页面配置
  * @author qianxuefeng
- * @date 2016年10月8日
- * @copyright: copyright @ HeleTech 2016
+ * @since 2016年10月8日
  */
 @Configuration
 public class ErrorConfig {

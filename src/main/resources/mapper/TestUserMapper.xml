@@ -13,7 +13,13 @@
     </insert>
 
     <select id="list" resultType="TestUser">
-        select * from test_user
+        SELECT * FROM test_user
+    </select>
+
+
+    <select id="findByAccount" resultType="TestUser">
+        SELECT * FROM test_user
+        WHERE ACCOUNT = #{account}
     </select>
 
 </mapper>
