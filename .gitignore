@@ -35,7 +35,7 @@ buildNumber.properties
 .idea*
 
 #log
-log*
+log/
 
 #setting no sample
 application.properties
